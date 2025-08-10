@@ -1,25 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "J:\\dev\\DriverStatsWebApi\\DriverStatsWebApi.csproj": {}
+    "C:\\dev\\DriverStatsWebApi\\Repository\\Repository.csproj": {}
   },
   "projects": {
-    "J:\\dev\\DriverStatsWebApi\\DriverStatsWebApi.csproj": {
+    "C:\\dev\\DriverStatsWebApi\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "J:\\dev\\DriverStatsWebApi\\DriverStatsWebApi.csproj",
-        "projectName": "DriverStatsWebApi",
-        "projectPath": "J:\\dev\\DriverStatsWebApi\\DriverStatsWebApi.csproj",
-        "packagesPath": "C:\\Users\\b_kel\\.nuget\\packages\\",
-        "outputPath": "J:\\dev\\DriverStatsWebApi\\obj\\",
+        "projectUniqueName": "C:\\dev\\DriverStatsWebApi\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "C:\\dev\\DriverStatsWebApi\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\Bernd\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\DriverStatsWebApi\\Repository\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\b_kel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Bernd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,25 +46,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[9.0.1, )"
-            },
-            "MongoDB.Bson": {
-              "target": "Package",
-              "version": "[3.4.0, )"
-            },
-            "MongoDB.Driver": {
-              "target": "Package",
-              "version": "[3.4.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -69,14 +63,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
